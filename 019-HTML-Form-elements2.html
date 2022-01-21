@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Form Elements Part-2</title>
+  </head>
+
+  <body>
+    <form action="#">
+      <button type="button" onclick="alert('Button clicked')">Click me</button>
+
+      <hr />
+
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <br />
+
+        <label for="fname">Firstname :</label>
+
+        <input type="text" name="firstname" id="fname" />
+
+        <br /><br />
+
+        <label for="lname">Lastname :</label>
+
+        <input type="text" name="lastname" id="lname" />
+
+        <br /><br />
+        <input type="submit" value="Submit Information" />
+
+        <br />
+      </fieldset>
+
+      <hr />
+      <br />
+
+      <label for="">Select your favorite browser :</label>
+
+      <input list="browsers" />
+
+      <datalist id="browsers">
+        <option value="Internet Explorer"></option>
+
+        <option value="Chrome"></option>
+
+        <option value="Safari"></option>
+
+        <option value="Opera mini"></option>
+
+        <option value="Firefox"></option>
+      </datalist>
+    </form>
+  </body>
+</html>
